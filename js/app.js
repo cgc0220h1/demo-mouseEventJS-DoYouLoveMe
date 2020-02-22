@@ -1,7 +1,7 @@
-alert("There's only one thing");
-alert("two do");
-alert("there words");
-alert("four you ...");
+// alert("There's only one thing");
+// alert("two do");
+// alert("there words");
+// alert("four you ...");
 
 function moveRandom() {
     let horizontal = Math.floor(Math.random() * window.innerWidth);

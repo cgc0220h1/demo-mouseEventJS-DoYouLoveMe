@@ -17,3 +17,11 @@ img {
     height: auto;
     margin-left: 100px;
 }
+
+span{
+    font-size: 80%;
+    font-weight: lighter;
+    position: fixed;
+    top: 870px;
+    left: 1630px
+}
