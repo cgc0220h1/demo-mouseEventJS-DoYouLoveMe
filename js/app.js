@@ -22,4 +22,6 @@ function moveRandom() {
 function reset() {
     document.getElementById("buttonNo").style.top = "480px";
     document.getElementById("buttonNo").style.left = "1000px";
+    clickTimes = 0;
+    document.getElementById("clickResult").innerHTML = ""
 }
