@@ -1,3 +1,12 @@
+@font-face {
+    font-family: ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: local("ubuntu-regular"); url("../fonts/Ubuntu-Regular.woff"); format("woff");
+}
+body{
+    font-family: Roboto, serif
+}
 .body-app {
     border: aquamarine 4px solid;
     width: 400px;
@@ -6,18 +15,15 @@
 p {
     text-align: center;
 }
-
 button {
     width: 80px;
     height: 50px;
 }
-
 img {
     max-width: 50%;
     height: auto;
     margin-left: 100px;
 }
-
 span{
     font-size: 80%;
     font-weight: lighter;
