@@ -1,14 +1,14 @@
 @font-face {
-    font-family: ubuntu;
+    font-family: ubuntu-local;
     font-style: normal;
     font-weight: 400;
-    src: local("ubuntu-regular"); url("../fonts/Ubuntu-Regular.woff"); format("woff");
+    src: url("../fonts/Ubuntu-Regular.woff");
 }
 body{
-    font-family: Roboto, serif
+    font-family: 'Open Sans', sans-serif;
 }
 .body-app {
-    border: aquamarine 4px solid;
+    border: rgba(100, 92, 214, 0.918) 4px solid;
     width: 400px;
     margin: 150px auto;
 }
